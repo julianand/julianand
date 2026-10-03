@@ -21,12 +21,41 @@ Senior Frontend Engineer with 7+ years building scalable, high-performance web a
 ---
 ### Featured Projects
 
-| | **Project** | **Stack** | **Demo** |
-|:--:|:--|:--|:--:|
-| 🛒 | [The Music Palace](https://github.com/julianand/musicpalace) | Next.js 16 · Supabase · Prisma | [Live →](https://musicpalace.vercel.app) |
-| ✅ | [TaskManager](https://github.com/julianand/task-manager) | Angular 22 (Signals) · Tailwind CSS 4 | [Live →](https://task-manager-zeta-one-36.vercel.app/) |
-| 💬 | [React Chat](https://github.com/julianand/react-chat) | React 19 · Redux Toolkit · RTK Query | [Live →](https://react-chat-gray.vercel.app) |
-| 🔎 | [DevLookup](https://github.com/julianand/devlookup) | React 19 · TypeScript · Vitest | [Live →](https://devlookup-psi.vercel.app) |
+#### 🛒 [The Music Palace](https://github.com/julianand/musicpalace) · [Live →](https://musicpalace.vercel.app)
+Demo storefront for music gear reviews — catalog, auth, reviews, wishlist, and a full cart-to-checkout flow.
+
+- **Core:** Next.js 16 (App Router) · React 19 · TypeScript
+- **Styling:** Tailwind CSS 4
+- **Data & Auth:** Supabase (Auth + PostgreSQL) · Prisma ORM 7
+- **Testing:** Playwright (E2E)
+- **Tooling:** ESLint · Vercel
+
+#### ✅ [TaskManager](https://github.com/julianand/task-manager) · [Live →](https://task-manager-zeta-one-36.vercel.app/)
+Task manager built with Angular signals — organize tasks by category, edit inline, persist in `localStorage`.
+
+- **Core:** Angular 22 (Signals, control flow) · TypeScript
+- **Styling:** Tailwind CSS 4
+- **State:** Signals + `localStorage`
+- **Testing:** Vitest (unit tests)
+- **Tooling:** Prettier · Vercel
+
+#### 💬 [React Chat](https://github.com/julianand/react-chat) · [Live →](https://react-chat-gray.vercel.app)
+Browser-only chat prototype — sidebar, message bubbles, and simulated incoming messages over an in-memory mock DB.
+
+- **Core:** React 19 · TypeScript · Vite 8
+- **Styling:** Ant Design v6 (+ icons)
+- **State & Data:** Redux Toolkit · RTK Query · React Redux
+- **Tooling:** ESLint · Vercel
+
+#### 🔎 [DevLookup](https://github.com/julianand/devlookup) · [Live →](https://devlookup-psi.vercel.app)
+GitHub user search app — look up any user and see their profile, stats and links in a clean, themeable card.
+
+- **Core:** React 19 · TypeScript · Vite 8
+- **Styling:** Custom CSS with design tokens
+- **Icons:** lucide-react
+- **Testing:** Vitest 5 + Testing Library (jsdom)
+- **Tooling:** ESLint · Vercel
+
 ---
 ### Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/julianpitre)
